@@ -39,7 +39,7 @@ function game()
 {
 let guess=document.getElementById('a').value;
 if(guess!=z){
-    document.getElementById('b').innerHTML="tryagain";
+    document.getElementById('b').innerHTML="try again";
 }
 else{
     document.getElementById('b').innerHTML="cong.";
